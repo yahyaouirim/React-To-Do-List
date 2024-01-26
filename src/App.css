@@ -1,0 +1,41 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+#root {
+  background-color: #242424;
+  color:#929498;
+  font-size: xx-large;
+  font-weight: 500;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px  solid #0D6EFD;
+  box-shadow: 3px 3px 3px #0D6EFD;
+}
+#root:hover{
+  color: #0D6EFD;
+}
+#root .oneTask{
+  color:white;
+}
+#root .oneTask:hover{
+  color: #0D6EFD;
+
+}
+.displayTask{
+  display:flex ;
+  align-items: flex-start  ;
+  flex-direction: column; 
+  gap: 10px;
+}
+.oneTask{
+  display:flex;
+  border: 3px solid black;
+  border-radius: 10px ;
+  background-color:black ;
+  padding:5px;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 18px;
+}
